@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 #include <stdlib.h>
+
 void inverteVetor(int *v,int tam){
     int i, c, num[tam];
     c = 0;
@@ -22,13 +23,13 @@ int main(){
 
     int tam, i;
 
-    printf("Qual é o tamanho do Vetor de números inteiros? ");
+    printf("Qual Ã© o tamanho do Vetor de nÃºmeros inteiros? ");
     scanf("%d", &tam);
 
     int vetor[tam];
 
     for (i = 0; i < tam; i++){
-        printf("Digite o número da posição %dº: ", i+1);
+        printf("Digite o nÃºmero da posiÃ§Ã£o %dÂº: ", i+1);
         scanf("%d", &vetor[i]);
     }
     
