@@ -12,7 +12,6 @@ void inverteVetor(int *v,int tam){
     for ( i = tam - 1; i >= 0; i--)
     {
         *(v + c) = num[i];
-        printf("%d >", *(v + c));
         c++;
     }
     
